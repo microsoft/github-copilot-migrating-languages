@@ -11,7 +11,9 @@
 		}
 	  },
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:latest": {}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -24,7 +26,7 @@
 		"codespaces": {
 			"openFiles": [
 			  "workshop/README.md",
-			  "workshop/main.py",
+			  "workshop/main.py"
 			]
 		},
 		"vscode": {
